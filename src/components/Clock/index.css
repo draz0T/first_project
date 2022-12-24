@@ -1,0 +1,149 @@
+.clock {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  color: rgb(20, 28, 174);
+  text-align: center;
+  background-color: rgba(249, 244, 244, 0.8);
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: -8px 8px 15px rgba(225, 225, 225, 0.05),
+    20px 20px 20px rgba(0, 0, 0, 0.2),
+    inset -8px -8px 15px rgba(225, 225, 225, 0.05),
+    inset 20px 20px 20px rgba(0, 0, 0, 0.2);
+}
+.clock::after {
+  background: #aaa;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #fff;
+}
+
+.secondsHandle {
+  position: absolute;
+  width: 2px;
+  height: 118px;
+  background: red;
+  top: 10.5%;
+  left: 50%;
+  transform-origin: bottom;
+}
+.minutesHandle {
+  position: absolute;
+  width: 4px;
+  height: 80px;
+  background: #444;
+  top: 22.5%;
+  left: 49%;
+  transform-origin: bottom;
+}
+.hoursHandle {
+  position: absolute;
+  width: 6px;
+  height: 60px;
+  background: #222;
+  top: 30%;
+  left: 49%;
+  transform-origin: bottom;
+}
+
+.clock span {
+  position: absolute;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 900;
+}
+
+.twelve {
+  top: 10px;
+  left: 46%;
+
+  display: grid;
+}
+
+.one {
+  top: 10%;
+  right: 26%;
+  display: grid;
+  position: absolute;
+}
+
+.eleven {
+  top: 10%;
+  left: 26%;
+  display: grid;
+  position: absolute;
+}
+
+.two {
+  top: 25%;
+  right: 10%;
+  display: grid;
+  position: absolute;
+}
+.three {
+  right: 10px;
+  top: 46%;
+  display: grid;
+  position: absolute;
+}
+
+.four {
+  right: 30px;
+  top: 67%;
+  display: grid;
+  position: absolute;
+}
+
+.five {
+  right: 78px;
+  top: 80%;
+  display: grid;
+  position: absolute;
+}
+.six {
+  bottom: 10px;
+  left: 50%;
+  display: grid;
+  position: absolute;
+}
+
+.seven {
+  left: 80px;
+  top: 82%;
+  display: grid;
+  position: absolute;
+}
+
+.eight {
+  left: 30px;
+  top: 67%;
+  display: grid;
+  position: absolute;
+}
+
+.nine {
+  left: 10px;
+  top: 46%;
+  display: grid;
+  position: absolute;
+}
+
+.ten {
+  top: 25%;
+  left: 10%;
+  display: grid;
+  position: absolute;
+}

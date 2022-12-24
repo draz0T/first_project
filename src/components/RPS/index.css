@@ -1,0 +1,121 @@
+@keyframes bouncing-letters {
+  0% {
+    transform: scale(1);
+  }
+  12.5% {
+    transform: scale(2.5);
+  }
+  25% {
+    transform: scale(1.3);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.Choices {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 25vh;
+  left: 45%;
+  background-color: red;
+  color: blueviolet;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 45px;
+}
+.rock {
+  background-color: brown;
+  color: rgb(48, 63, 63);
+}
+#papper {
+  background-color: brown;
+}
+.RockPapperScissors-buttons {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+  background-color: yellow;
+  color: rgb(30, 0, 255);
+  border: 1px solid #1f211c;
+  border-radius: 50px;
+}
+
+.RockPapperScissors-buttons:hover {
+  background-color: rgb(50, 50, 140);
+  color: rgb(253, 253, 253);
+}
+
+.RockPapperScissors-buttons:active {
+  background-color: rgb(50, 50, 190);
+  box-shadow: 0 2px rgb(227, 0, 0);
+  transform: translateY(4px);
+  color: rgb(110, 235, 57);
+}
+.after-pick {
+  width: 100px;
+  height: 100px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  position: relative;
+  top: 95px;
+  left: 100px;
+  border: 3px solid #1f211c;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.score-button {
+  background-color: greenyellow;
+  color: rgb(47, 0, 149);
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  width: 70px;
+  height: 40px;
+  animation: bouncing-letters 1.3s infinite alternate-reverse;
+  /* animation: rotate 5s both infinite ease-in-out alternate-reverse; */
+}
+.reset-button {
+  background-color: rgb(167, 236, 241);
+  width: 70px;
+  height: 30px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  z-index: -0;
+  color: #4e0606;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+.reset-button:hover {
+  background-color: rgb(50, 50, 140);
+  color: rgb(253, 253, 253);
+}
+/* -----------------
+box-shadow: 4px 2px 5px 1px rgb(0 0 0 / 30%);
+  border-radius: 8px;
+
+
+.nav-item:hover {
+  background-color: rgb(50, 50, 140);
+  color: rgb(253, 253, 253);
+}
+.nav-item:active {
+  background-color: rgb(50, 50, 190);
+  box-shadow: 0 2px rgb(227, 0, 0);
+  transform: translateY(4px);
+  color: rgb(110, 235, 57);
+} */

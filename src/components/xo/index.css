@@ -1,0 +1,31 @@
+.mainContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 240px;
+  margin: 0 auto;
+  top: 35%;
+  left: 45%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+.items {
+  border: 1px solid black;
+  height: 80px;
+  width: 80px;
+  background-color: aquamarine;
+}
+
+.x {
+  background-color: red;
+  border: 1px solid black;
+  height: 80px;
+  width: 80px;
+}
+.o {
+  background-color: blue;
+  border: 1px solid black;
+  height: 80px;
+  width: 80px;
+}

@@ -1,0 +1,55 @@
+.App {
+  border: 1px;
+  background: rgb(63, 63, 158);
+  height: 200px;
+  width: fit-content;
+}
+
+.header {
+  border: 1px;
+  background: rgb(63, 63, 158);
+  height: 200px;
+  width: fit-content;
+}
+.div {
+  border: 1px;
+  background: rgb(63, 63, 158);
+  height: 200px;
+  width: fit-content;
+}
+.gameclock {
+  background-color: red;
+  width: blueviolet 60px;
+  height: 40px;
+}
+.navigation-bar {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(109, 105, 105);
+}
+.nav-item {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(106, 106, 190);
+  color: rgb(39, 30, 30);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  box-shadow: 4px 2px 5px 1px rgb(0 0 0 / 30%);
+  border-radius: 8px;
+}
+
+.nav-item:hover {
+  background-color: rgb(50, 50, 140);
+  color: rgb(253, 253, 253);
+}
+.nav-item:active {
+  background-color: rgb(50, 50, 190);
+  box-shadow: 0 -2px rgb(227, 0, 0);
+  transform: translateY(4px);
+  color: rgb(110, 235, 57);
+}
